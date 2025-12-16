@@ -1,0 +1,158 @@
+body {
+    background-color: #add8e6;
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+table {
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    border: 5px solid green;
+    margin-top: 20px;
+    background-color: white;
+}
+
+th,
+td {
+    border: 1px solid red;
+}
+
+td:hover {
+    background-color: lightcoral;
+    color: white;
+}
+
+fieldset {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 50px auto;
+    border: 1px solid black;
+}
+
+.container {
+    display: flex;
+
+}
+
+.box {
+    border: 1px solid;
+    width: 99px;
+    height: 99px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#box1 {
+    background-color: green;
+}
+
+#box2 {
+    background-color: yellow;
+}
+
+#box3 {
+    background-color: pink;
+}
+
+#box4 {
+    background-color: blue;
+}
+
+#box5 {
+    background-color: red;
+}
+
+#box6 {
+    background-color: orange;
+}
+
+#box7 {
+    background-color: beige;
+}
+
+#box8 {
+    background-color: lightgray;
+}
+
+body {
+    background-color: #1e1e1e;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* Main Container */
+.main_container {
+    width: 900px;
+    margin: 50px auto;
+    border: 3px solid #00cfcf;
+    padding: 20px
+}
+
+/* Section 1 */
+.section1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+
+/*COMMON BOX STYLING */
+.box {
+    border: 2px solid #00cfcf;
+    padding: 15px;
+
+}
+
+/* BOX1 */
+.box1 {
+    display: flex;
+    align-items: center;
+     gap: 15px;
+
+}
+
+.box1 img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+/*Box 3 spans full width */
+.box3 {
+    grid-column: 1/3;
+}
